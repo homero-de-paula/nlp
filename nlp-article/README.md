@@ -21,4 +21,6 @@ python3 generate_hypothesis.py \
     --output_path ./language-model-evaluation/hypothesis/cv-6.1-w2v-cv-6.1-coraa \ 
     
 ## Usar datasets combinados
+
 Agora você pode usar combine_datasets.py para gerar combinações de todos os conjuntos de dados e estimar variações do gpt2 usando o gpt2_inference.py
+
