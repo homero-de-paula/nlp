@@ -8,7 +8,7 @@ def _load_cv(path: str):
             yield i, row['sentence']
 
 
-class CommonVoice(Dataset):
+class commonvoice(Dataset):
     def __init__(self, path: str):
         super().__init__(path, _load_cv(path))
 
