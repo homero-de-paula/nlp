@@ -17,8 +17,8 @@ Primeiro, instale as dependências necessárias:
 pip install -r requirements.txt
 pip install -r language-model-evaluation/requirements.txt
 
-Coraa 
-## !python3 generate_hypothesis.py \
+##Coraa 
+python3 generate_hypothesis.py \
     --data_type commonvoice \
     --data_folder ./language-model-evaluation/data/cv-corpus-6.1-2020-12-11/pt/ \
     --model_name ./language-model-evaluation/models/wave2vec_model \
