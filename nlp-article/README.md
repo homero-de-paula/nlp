@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python3 generate_hypothesis.py \
     --data_type commonvoice \
     --data_folder ./data/cv-corpus-6.1-2020-12-11/pt \
-    --model_name ./wave2vec_model-coraa \
+    --model_name ./wave2vec_model_coraa \
     --output_path ./hypothesis/cv-6.1-w2v-cv-6.1-coraa \ 
     
 ## Usar datasets combinados
