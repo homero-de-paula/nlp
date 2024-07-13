@@ -7,7 +7,7 @@ def _load_coraa(path: str):
         for i, row in chunk.iterrows():
             yield i, row['text']
 
-class Coraa(Dataset):
+class coraa(Dataset):
     def __init__(self, path: str):
         super().__init__(path, _load_coraa(path))
 
