@@ -11,7 +11,6 @@ Este repositório armazena um projeto que utiliza GPT-2 como modelo de linguagem
 Primeiro, instale as dependências necessárias:
 
 pip install -r requirements.txt
-pip install -r language-model-evaluation/requirements.txt
 
 ## Importar o wav2vec2 e salvar nas variaveis
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
