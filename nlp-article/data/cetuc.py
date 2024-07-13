@@ -15,7 +15,7 @@ def _load_cetuc(path: str):
             i += 1
 
 
-class CETUC(Dataset):
+class Cetuc(Dataset):
     def __init__(self, path: str):
         super().__init__(path, _load_cetuc(path))
 
