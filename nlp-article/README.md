@@ -20,6 +20,6 @@ pip install -r language-model-evaluation/requirements.txt
 
 python3 generate_hypothesis.py \
     --data_type commonvoice \
-    --data_folder ./language-model-evaluation/data/cv-corpus-6.1-2020-12-11/pt/ \
+    --data_folder ./language-model-evaluation/data/cv-corpus-6.1-2020-12-11/pt \
     --model_name ./language-model-evaluation/models/wave2vec_model \
     --output_path ./language-model-evaluation/hypothesis/cv-6.1-w2v-cv-6.1-coraa \ 
