@@ -13,6 +13,12 @@ Primeiro, instale as dependências necessárias:
 pip install -r requirements.txt
 pip install -r language-model-evaluation/requirements.txt
 
+## Importar o wav2vec2 e salvar nas variaveis
+from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
+
+processor = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-base-960h")
+model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-base-960h")
+
 ## Usar individual
 
 python3 generate_hypothesis.py \
