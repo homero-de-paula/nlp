@@ -13,12 +13,11 @@ Este repositório armazena um projeto que utiliza GPT-2 como modelo de linguagem
 ## Instalação de Dependências
 Primeiro, instale as dependências necessárias:
 
-'''sh
 pip install -r requirements.txt
 pip install -r language-model-evaluation/requirements.txt
 
 ## Coraa 
-'''sh
+
 python3 generate_hypothesis.py \
     --data_type commonvoice \
     --data_folder ./language-model-evaluation/data/cv-corpus-6.1-2020-12-11/pt/ \
