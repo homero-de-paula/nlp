@@ -15,3 +15,4 @@ Primeiro, instale as dependências necessárias:
 
 ```sh
 pip install -r requirements.txt
+pip install -r language-model-evaluation/requirements.txt
