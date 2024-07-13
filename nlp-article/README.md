@@ -13,7 +13,7 @@ Primeiro, instale as dependências necessárias:
 pip install -r requirements.txt
 pip install -r language-model-evaluation/requirements.txt
 
-# Usar individual
+## Usar individual
 
 python3 generate_hypothesis.py \
     --data_type commonvoice \
@@ -21,4 +21,4 @@ python3 generate_hypothesis.py \
     --model_name ./language-model-evaluation/models/wave2vec_model \
     --output_path ./language-model-evaluation/hypothesis/cv-6.1-w2v-cv-6.1-coraa \ 
     
-Agora você pode usar combine_datasets.py para gerar combinações de todos os conjuntos de dados e estimar variações do gpt2 usando o gpt2_inference.py
+### Agora você pode usar combine_datasets.py para gerar combinações de todos os conjuntos de dados e estimar variações do gpt2 usando o gpt2_inference.py
