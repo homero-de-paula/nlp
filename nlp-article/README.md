@@ -6,14 +6,14 @@ Este repositório armazena um projeto que utiliza GPT-2 como modelo de linguagem
 ## Dados Utilizados
 - **CETUC**: [Download](http://www02.smt.ufrj.br/~igor.quintanilha/alcaim.tar.gz)
 - **CORAA**: [Download](https://github.com/nilc-nlp/CORAA)
-
+- **COMMON VOICE**: [Download](https://commonvoice.mozilla.org/pt/datasets)
 ## Instalação de Dependências
 Primeiro, instale as dependências necessárias:
 
 pip install -r requirements.txt
 pip install -r language-model-evaluation/requirements.txt
 
-## Coraa 
+Usar individual
 
 python3 generate_hypothesis.py \
     --data_type commonvoice \
