@@ -7,7 +7,7 @@ from asr_language_model_evaluation.preprocessing import normalize
 datasets_type = {
     'coraa': Coraa,
     'cetuc': cetuc,
-    'cetenfolha': commonvoice
+    'commonvoice': commonvoice
 }
 
 if __name__ == '__main__':
