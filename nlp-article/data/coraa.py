@@ -1,5 +1,5 @@
 import pandas as pd
-
+from data.datasets import Dataset
 
 def _load_coraa(path: str):
     for chunk in pd.read_csv(path, chunksize=100):
