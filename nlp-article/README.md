@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Usar individual
 
-python3 gpt2.py > Dentro do arquivo substitua o diretorio de onde está o áudio  
+python3 gpt2.py > Dentro do arquivo substitua o diretorio de onde está o audio_file  
      
     
 ## Usar datasets combinados
