@@ -1,7 +1,7 @@
 import argparse
 from tqdm import tqdm
-from asr_language_model_evaluation.datasets import coraa, cetuc, commonvoice
-from asr_language_model_evaluation.preprocessing import normalize
+from data.datasets import coraa, cetuc, commonvoice
+from data.preprocessing import normalize
 
 
 datasets_type = {
