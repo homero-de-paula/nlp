@@ -20,3 +20,4 @@ python3 gpt2.py > Dentro do arquivo substitua o diretorio de onde está o audio_
 ## Usar datasets combinados
 
 Agora você pode usar combine_datasets.py para gerar combinações de todos os conjuntos de dados e estimar variações do gpt2.
+Existe também a possibilidade de utilizar o gpt-2 apenas em raw data com raw.py
