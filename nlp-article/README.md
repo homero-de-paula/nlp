@@ -1,7 +1,7 @@
 # Language Model Evaluation
 
 ## Descrição
-Este repositório armazena um projeto que utiliza GPT-2 como modelo de linguagem para o Wave2Vec para a língua portuguesa.
+Este repositório armazena um projeto que utiliza GPT-2 em comparação ao Wave2Vec para a língua portuguesa.
 
 ## Dados Utilizados
 - **CETUC**: [Download](http://www02.smt.ufrj.br/~igor.quintanilha/alcaim.tar.gz)
