@@ -14,7 +14,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='Clean dataset')
     parser.add_argument("--path", type=str, required=True,
                         help="Dataset file path")
-    parser.add_argument('--type', type=str, required=True, help='Dataset type (BRWaC, Wikipedia, CORAA, CommonVoice, CETUC)')
+    parser.add_argument('--type', type=str, required=True, help='Dataset type (CORAA, CommonVoice, CETUC)')
     parser.add_argument('--output', type=str, required=True, help='Dataset output file path')
     args = parser.parse_args()
 
