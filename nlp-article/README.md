@@ -14,13 +14,9 @@ pip install -r requirements.txt
 
 ## Usar individual
 
-python3 generate_hypothesis.py \
-    --data_type commonvoice \
-    --data_folder ./data/cv-corpus-6.1-2020-12-11/pt \
-    --model_name ./wave2vec_model_coraa \
-    --output_path ./hypothesis/cv-6.1-w2v-cv-6.1-coraa \ 
+python3 gpt2.py > Dentro do arquivo substitua o diretorio de onde está o áudio  
+     
     
 ## Usar datasets combinados
 
-Agora você pode usar combine_datasets.py para gerar combinações de todos os conjuntos de dados e estimar variações do gpt2 usando o gpt2_inference.py
-
+Agora você pode usar combine_datasets.py para gerar combinações de todos os conjuntos de dados e estimar variações do gpt2.
