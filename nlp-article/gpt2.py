@@ -30,6 +30,7 @@ def calcular_wer(referencia, transcricao):
 if __name__ == "__main__":
     # Caminho para o arquivo de áudio
     audio_path = "/content/"
+    path = "/content/"
 
     # Transcrição do áudio
     transcricao = transcrever_audio(audio_path)
