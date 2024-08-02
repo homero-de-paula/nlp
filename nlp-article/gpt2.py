@@ -28,19 +28,13 @@ def calcular_wer(referencia, transcricao):
     return wer(referencia, transcricao)
 
 if __name__ == "__main__":
-    # Caminho para o arquivo de áudio
     audio_path = "/content/"
     path = "/content/"
-
-    # Transcrição do áudio
     transcricao = transcrever_audio(audio_path)
     print(f"Transcrição: {transcricao}")
 
     if transcricao:
-        # Geração de texto com GPT-2 usando a transcrição como prompt
         resposta_gpt2 = gerar_texto_gpt2(transcricao)
         print(f"Resposta do GPT-2: {resposta_gpt2}")
-
-        # Cálculo do Word Error Rate (WER)
         wer_valor = calcular_wer(transcricao, resposta_gpt2)
         print(f"Word Error Rate (WER): {wer_valor}")
